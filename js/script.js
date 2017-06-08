@@ -11,7 +11,7 @@ if (window.DeviceMotionEvent) {
         console.log(eventData.accelerationIncludingGravity.z);*/
 
         // Rotation rate
-        document.getElementById('alpha').innerText = eventData.rotationRate.alpha;
+        document.getElementById('alpha').innerHTML = eventData.rotationRate.alpha;
         console.log(eventData.rotationRate.beta);
         console.log(eventData.rotationRate.gamma);
     }, false);
